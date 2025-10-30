@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.ymla
+      import: app/west.yml
     - name: nice-view-gem
       remote: jamesgibbons92
       revision: main
