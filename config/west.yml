@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: jamesgibbons92
+      url-base: https://github.com/jamesgibbons92
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
+      import: app/west.ymla
+    - name: nice-view-gem
+      remote: jamesgibbons92
+      revision: main
   self:
     path: config
