@@ -13,6 +13,6 @@ manifest:
       import: app/west.yml
     - name: nice-view-gem
       remote: jamesgibbons92
-      revision: v0.3.0
+      revision: main
   self:
     path: config
